@@ -92,7 +92,7 @@ def handler(event, context):
             detectorModelName=param["modelname"],
             detectorModelDefinition= json.loads(jsonString)["detectorModelDefinition"],
             detectorModelDescription= "This detector model is used to detect if a monitored device is in an Alarming State.", 
-            roleArn= "arn:aws:iam::909255138579:role/service-role/iot_detector_role", 
+            roleArn= "arn:aws:iam::735953786820:role/service-role/iot_detector_role", 
             key= "alarmId",
             evaluationMethod='SERIAL')
         
@@ -275,7 +275,7 @@ sampleAlarmjson = {
                             "actions": [
                                 {
                                     "sns": {
-                                        "targetArn": "arn:aws:sns:us-east-1:909255138579:SimpleAlarmAlerts"
+                                        "targetArn": "arn:aws:sns:us-west-2:735953786820:SimpleAlarmAlerts"
                                     }
                                 }
                             ], 
@@ -291,7 +291,7 @@ sampleAlarmjson = {
                             "actions": [
                                 {
                                     "sns": {
-                                        "targetArn": "arn:aws:sns:us-east-1:909255138579:SimpleAlarmAlerts"
+                                        "targetArn": "arn:aws:sns:us-west-2:735953786820:SimpleAlarmAlerts"
                                     }
                                 }, 
                                 {
