@@ -64,7 +64,7 @@
 						"Arn"
 					]
 				},
-				"Runtime": "python3.7",
+				"Runtime": "python3.1",
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-reactamplified-env-222501-deployment",
