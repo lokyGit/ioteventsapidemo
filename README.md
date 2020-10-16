@@ -16,7 +16,6 @@ This demo shows how you can use the IoT Events API together with Amplify to buil
 mkdir react-amplified
 cd react-amplified
 npm install -g @aws-amplify/cli
-## amplify init --app https://github.com/krazers/ioteventsapidemo.git
 amplify init --app https://github.com/lokyGit/ioteventsapidemo.git
 ```
 [Amplify Blog for Installing Amplify projects from git](https://aws.amazon.com/blogs/mobile/amplify-cli-adds-scaffolding-support-for-amplify-apps-and-authoring-plugins/)
